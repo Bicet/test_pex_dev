@@ -52,10 +52,6 @@ PRODUCT_PACKAGES += \
     BluetoothQti \
     libbtconfigstore
 
-# Camera
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.camera.device@1.0
-
 # Device Settings
 PRODUCT_PACKAGES += \
     XiaomiParts
@@ -140,6 +136,10 @@ PRODUCT_COPY_FILES += \
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2-service.surya
+
+# Prebuilt Packages
+PRODUCT_PACKAGES += \
+    GCamGo
 
 # RCS
 PRODUCT_PACKAGES += \
